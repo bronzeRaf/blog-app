@@ -1,7 +1,13 @@
 <% provide(:title, "Home") %>
-<h1>Home</h1>
-<p>
-  This is the home page for the
-    <a href="https://www.github.com/bronzeraf/blog-app">Blog App</a>
-      sample application.
-</p>
+<div class="center jumbotron">
+	<h1>Home</h1>
+	<h2>
+	  This is the home page for the
+	    <a href="https://www.github.com/bronzeraf/blog-app">Blog App</a>
+	      sample application.
+	</h2>
+	<%= link_to "Sign up now!", signup_path, class: "btn btn-lg
+	btn-primary" %>
+</div>
+
+<%= link_to image_tag("raf.jpeg", alt: "Rafail Brouzos", width:"80"),"https://www.linkedin.com/in/rafail-brouzos-829528162/" %>
